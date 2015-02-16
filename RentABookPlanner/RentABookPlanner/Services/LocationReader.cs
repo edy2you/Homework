@@ -3,7 +3,7 @@ using RentABookPlanner.DAL;
 
 namespace RentABookPlanner.Services
 {
-    public class LocationReader
+    public class LocationReader :IReader<Location>
     {
         public Location Read()
         {

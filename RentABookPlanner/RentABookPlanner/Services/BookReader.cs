@@ -3,7 +3,7 @@ using RentABookPlanner.DAL;
 
 namespace RentABookPlanner.Services
 {
-    public class BookReader
+    public class BookReader : IReader<Book>
     {
 
         public Book Read()
